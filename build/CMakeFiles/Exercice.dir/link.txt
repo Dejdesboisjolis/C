@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/Exercice.dir/apps/main.c.o -o Exercice  -Wl,-rpath,/home/jeremy/Documents/C_Project/build liblib.so 

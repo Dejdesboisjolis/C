@@ -1,0 +1,6 @@
+cmake_minimum_required( VERSION 2.8 )
+project(exercice)
+include_directories(include)
+add_library(lib SHARED src/pyramide.c)
+add_executable(Exercice apps/main.c)
+target_link_libraries(Exercice lib)
