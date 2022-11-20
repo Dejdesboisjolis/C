@@ -508,3 +508,8 @@ void passed_value (void)
     //printf("la valuer est : %d", **valeur);
 
 }
+
+void modification(void)
+{
+    printf("do nothing\n");
+}
