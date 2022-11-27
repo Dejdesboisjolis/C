@@ -554,6 +554,7 @@ void message_queue(void)
         die("msgsnd");
         printf("commit bbps 828 numero 1 \n");
         printf("commit bbps 828 numero 2 \n");
+        printf("commit bbps 828 numero 3 \n");
     }
 
     else
